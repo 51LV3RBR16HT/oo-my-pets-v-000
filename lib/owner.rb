@@ -18,7 +18,7 @@ class Owner
   end
 
   def say_species("I am human.")
-    self.species
+    self.say_species
   end
 
   def pets
