@@ -17,7 +17,7 @@ class Owner
   end
 
   def say_species
-    species = self.pets
+    self.say_species = "I am human."
   end
 
   def pets
