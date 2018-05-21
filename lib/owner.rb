@@ -2,12 +2,10 @@ require 'pry'
 
 class Owner
 
-  @@all = []
-
-
-
   attr_accessor :name, :pets
   attr_reader :species
+
+  @@all = []
 
   def initialize(species)
     @species = species
