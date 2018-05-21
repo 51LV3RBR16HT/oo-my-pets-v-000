@@ -11,4 +11,7 @@ class Owner
     @name = name
   end
 
+  def species
+  end
+
 end
