@@ -14,10 +14,11 @@ class Owner
   def initialize(species)
     @species = species
     @@all << self
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def say_species(species = "I am human.")
-    self.species 
+  def say_species(species = "")
+    self.species
   end
 
   def pets
