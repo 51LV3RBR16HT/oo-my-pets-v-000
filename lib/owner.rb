@@ -4,9 +4,7 @@ class Owner
 
   @@all = []
 
-  def self.all
-    @@all
-  end
+
 
   attr_accessor :name, :pets
   attr_reader :species
@@ -17,9 +15,9 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  # def self.all
-  #   @@all
-  # end
+  def self.all
+    @@all
+  end
 
   def self.count
     @@all.length
@@ -52,7 +50,7 @@ class Owner
     pets[:dogs] << dog
   end
 
-  def walk_dogs
+  def walk_dogs()
 
   end
 
