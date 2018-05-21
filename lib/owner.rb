@@ -18,7 +18,8 @@ class Owner
   end
 
   def species
-    @species = self.species
+    binding.pry
+    species = self.species
   end
 
   def pets
