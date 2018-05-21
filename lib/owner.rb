@@ -19,7 +19,7 @@ class Owner
 
   def species
     binding.pry
-    species = self.species
+    species = self.pets
   end
 
   def pets
