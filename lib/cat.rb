@@ -5,9 +5,9 @@ class Cat
   attr_accessor :mood
   attr_reader :name, :species
 
-  def initialize(name, mood)
+  def initialize(name, moo)
     @name = name
-    @mood = mood
+  
   end
 
 end
