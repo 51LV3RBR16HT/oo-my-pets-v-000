@@ -3,7 +3,7 @@ require 'pry'
 class Owner
 
   attr_accessor :name
-  attr_reader :species, :owner
+  attr_reader :species
 
   @pets = {fishes: [], cats: [], dogs: []}
 
