@@ -10,7 +10,7 @@ class Owner
   end
 
   def species
-    species = self.species
+    species 
   end
 
   def pets
