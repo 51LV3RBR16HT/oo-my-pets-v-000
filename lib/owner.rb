@@ -9,6 +9,10 @@ class Owner
     @name = name
   end
 
+  def species(species)
+    @species
+  end
+
   def pets
     @pets = {fishes: [], cats: [], dogs: []}
   end
