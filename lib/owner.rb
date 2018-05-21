@@ -50,7 +50,7 @@ class Owner
 
   def walk_dogs
     binding.pry
-    pets[:dog]
+    pets[:dogs].map { |dog| deg.mood = "happy" }
   end
 
 end
