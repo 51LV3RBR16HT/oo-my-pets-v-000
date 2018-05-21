@@ -1,3 +1,6 @@
 class Cat
-  # code goes here
+
+  def initialized
+  end
+  
 end
