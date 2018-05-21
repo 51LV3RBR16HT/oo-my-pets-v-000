@@ -12,7 +12,7 @@ class Owner
   end
 
   def self.all
-    @@all << Owner.all
+    @@all << Owner.species
   end
 
 
