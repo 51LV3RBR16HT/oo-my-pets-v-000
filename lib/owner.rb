@@ -13,6 +13,7 @@ class Owner
 
   def initialize(name)
     @name = name
+
     @@all << self
     @count = 0
   end
