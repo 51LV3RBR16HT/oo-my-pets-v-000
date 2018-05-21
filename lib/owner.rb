@@ -18,7 +18,7 @@ class Owner
   end
 
   def species
-    @species = {fishes: [], cats: [], dogs: []}
+    @species
   end
 
   def pets
