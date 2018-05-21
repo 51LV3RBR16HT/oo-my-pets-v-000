@@ -1,6 +1,7 @@
 class Cat
 
-  def initialized
+  def initialized(name)
+    @name = name
   end
-  
+
 end
