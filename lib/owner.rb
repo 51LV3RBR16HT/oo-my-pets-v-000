@@ -11,6 +11,9 @@ class Owner
     @name = name
   end
 
+  def pets
+    @pets
+  end 
 
 
 end
