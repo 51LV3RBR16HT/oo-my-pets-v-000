@@ -13,9 +13,9 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def self.all
-    @@all
-  end
+  # def self.all
+  #   @@all
+  # end
 
   def self.count
     @@all.length
