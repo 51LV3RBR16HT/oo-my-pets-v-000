@@ -9,11 +9,11 @@ class Owner
 
   def initialize(name)
     @name = name
-    @species = species 
+    @species = species
   end
 
-  # def species
-  #   @species = species
-  # end
+  def species
+    @species
+  end
 
 end
