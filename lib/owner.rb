@@ -11,7 +11,7 @@ class Owner
     @name = name
   end
 
-  def species(pets)
+  def species
     @@all << name
   end
 
