@@ -10,7 +10,7 @@ class Cat
   end
 
   def mood
-    @mood
+
   end
 
 end
