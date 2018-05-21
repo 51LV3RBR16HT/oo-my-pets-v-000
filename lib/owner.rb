@@ -18,12 +18,12 @@ class Owner
   end
 
   def self.reset_all
-    self.clear.all
+    @@all.clear
   end
 
-  def say_species(owner = "I am human.")
-
-  end
+  # def say_species(owner = "I am human.")
+  #
+  # end
 
   def pets
     @pets = {fishes: [], cats: [], dogs: []}
