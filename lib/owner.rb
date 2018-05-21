@@ -16,8 +16,8 @@ class Owner
     @@all << self
   end
 
-  def say_species
-    self.say_species = "I am human."
+  def say_species(species = "I am human.")
+    self.species 
   end
 
   def pets
