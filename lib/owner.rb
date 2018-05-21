@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
 
-  @@owners = []
+  @@all = []
 
   attr_accessor :name, :pets
   attr_reader :species
@@ -16,8 +16,5 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def owners(name)
-    @owners << name
-  end
 
 end
