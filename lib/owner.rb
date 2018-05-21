@@ -17,6 +17,10 @@ class Owner
     @count = 0
   end
 
+  def species
+    species
+  end
+
   def pets
     @pets = {fishes: [], cats: [], dogs: []}
   end
