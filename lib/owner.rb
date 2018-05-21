@@ -6,13 +6,14 @@ class Owner
 
   def self.all
     @@all
-    end
+  end
 
   attr_accessor :name, :pets
   attr_reader :species
 
   def initialize(name)
     @name = name
+    @@all << self
   end
 
   def pets
