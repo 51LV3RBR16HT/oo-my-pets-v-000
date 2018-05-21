@@ -16,4 +16,7 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
+  def owners
+    @owners << name
+
 end
