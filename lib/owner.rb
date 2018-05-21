@@ -29,7 +29,7 @@ class Owner
     @@all.clear
   end
 
-  def self.say_species
+  def say_species
     puts "I am a #{species}."
   end
 
