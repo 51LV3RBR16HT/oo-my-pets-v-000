@@ -1,3 +1,5 @@
+require 'pry'
+
 class Cat
 
   def initialize(name)
