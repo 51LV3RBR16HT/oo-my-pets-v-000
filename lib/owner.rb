@@ -3,7 +3,7 @@ require 'pry'
 class Owner
 
   attr_accessor :name, :pets
-  attr_writer :species
+  attr_reader :species
 
   def initialize(name)
     @name = name
