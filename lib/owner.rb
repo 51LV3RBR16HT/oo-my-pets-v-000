@@ -17,7 +17,7 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def say_species(species)
+  def say_species("I am human.")
     self.species
   end
 
