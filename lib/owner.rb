@@ -14,7 +14,7 @@ class Owner
   def initialize(name)
     @name = name
     @@all << self
-    @owners = 0
+    @count = 0
   end
 
   def pets
