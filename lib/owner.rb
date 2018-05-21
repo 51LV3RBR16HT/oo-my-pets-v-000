@@ -11,9 +11,8 @@ class Owner
   attr_accessor :name, :pets
   attr_reader :species
 
-  def initialize(name, species)
+  def initialize(name)
     @name = name
-    @species
     @@all << self
     @count = 0
   end
