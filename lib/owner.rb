@@ -65,7 +65,7 @@ class Owner
       pets.map {|pet| pet.mood = "nervous"}
     # if pets.empty? == true
     #   puts
-    end
+    
   end
 
 end
