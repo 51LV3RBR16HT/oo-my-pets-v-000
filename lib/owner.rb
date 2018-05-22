@@ -60,12 +60,12 @@ class Owner
     pets[:fishes].map { |fish| fish.mood = "happy" }
   end
 
-  def sell_pets
-    pets.each.do |type, pets|
-      pets.map {|pet| pet.mood = "nervous"}
-      pets.clear
-
-
-end
+#   def sell_pets
+#     pets.each.do |type, pets|
+#       pets.map {|pet| pet.mood = "nervous"}
+#       pets.clear
+#
+#
+# end
 
 end
