@@ -68,7 +68,7 @@ class Owner
   end
 
   def list_pets
-    pets
+    pets.size
   end
 
 end
