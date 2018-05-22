@@ -63,10 +63,8 @@ class Owner
   def sell_pets
     pets.each.do |type, pets|
       pets.each {|pet| pet.mood = "nervous"}
-    # if pets.empty? == true
-    #   puts
   end
-  pets.clear
+  pet.clear
 end
 
 end
