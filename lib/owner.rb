@@ -1,5 +1,3 @@
-require 'pry'
-
 class Owner
 
   attr_accessor :name, :pets
@@ -28,10 +26,6 @@ class Owner
   def say_species
     "I am a #{species}."
   end
-
-  # def pets
-  #   @pets = {fishes: [], cats: [], dogs: []}
-  # end
 
   def buy_fish(name)
     fish = Fish.new(name)
