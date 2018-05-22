@@ -1,5 +1,3 @@
-require 'pry'
-
 class Fish
 
   attr_accessor :mood
