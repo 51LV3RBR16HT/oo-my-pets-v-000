@@ -66,7 +66,7 @@ class Owner
     # if pets.empty? == true
     #   puts
   end
-  pets.delete
+  pets.clear
 end
 
 end
