@@ -64,7 +64,7 @@ class Owner
     pets.each.do |type, pets|
       pets.map {|o| o.mood = "nervous"}
     end
-    pets.clear 
-end
+    pets.clear
+  end
 
 end
